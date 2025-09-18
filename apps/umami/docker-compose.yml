@@ -9,6 +9,8 @@ services:
     restart: unless-stopped
     networks:
       - tipi_main_network
+    volumes:
+      - /data/armadietto:/usr/share/armadietto
     labels:
       # Main
       traefik.enable: true
@@ -35,3 +37,5 @@ services:
       traefik.http.routers.armadietto-local.service: armadietto
       traefik.http.routers.armadietto-local.tls: true
       runtipi.managed: true
+
+      
