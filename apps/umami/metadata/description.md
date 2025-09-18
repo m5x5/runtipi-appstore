@@ -1,11 +1,9 @@
-> Warning ⚠️: This app is now deprecated. Please use the Umami Analytics app instead.
-
 ## Default credentials
 
 Username: admin
-Password: umami
+Password: armadietto
 
-# umami
+# armadietto
 
 Umami is a simple, fast, privacy-focused alternative to Google Analytics.
 
